@@ -1,0 +1,4 @@
+node_modules/
+credentials.json
+./src/model/package.json
+/src/model/package.json
