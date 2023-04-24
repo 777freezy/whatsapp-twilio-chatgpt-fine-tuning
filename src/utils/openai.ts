@@ -16,7 +16,7 @@ export const runQuery = async (query: string, number: string) => {
     conversation_history += `Q: ${query}\nA:`;
 
     const response = await openai.createCompletion({
-      model: "text-davinci-003",
+      model: "",
       prompt: conversation_history,
       max_tokens: 150,
       temperature: 0.9, //valor antigo era de 0.7
