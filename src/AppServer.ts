@@ -4,7 +4,7 @@ import { Server } from "@overnightjs/core";
 import { Logger } from "@overnightjs/logger";
 import * as cors from "cors";
 export class AppServer extends Server {
-  private readonly SERVER_STARTED = "Server started on port: ";
+  private readonly SERVER_STARTED = "logado na porta: ";
 
   constructor() {
     super(true);
